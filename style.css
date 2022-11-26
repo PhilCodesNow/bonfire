@@ -1,3 +1,173 @@
+:root{
+    --bg-blue: #38444e;
+    --text-white: #f0eff4;
+}
 *{
-    background-color: red;
+    margin: 0;
+    padding: 0;
+    color: var(--text-white);
+}
+@media (max-width: 500px){
+    body{
+        background-image: url("https://static.wixstatic.com/media/b2a22f_4578c4fb1c254e1589bb22efec175c82~mv2.png/v1/fill/w_384,h_720,al_c,lg_1,q_85,enc_auto/b2a22f_4578c4fb1c254e1589bb22efec175c82~mv2.png");
+        background-repeat: none;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    #nav{
+        margin: 0 auto;
+        text-align: center;
+        padding: 1em 0;
+        background-color: var(--bg-blue);
+    }
+    #main{
+        text-align: center;
+        padding-bottom: 5em;
+    }
+    #main h1{
+        margin: 0 auto;
+        padding-top: 4em;
+        font-size: 1.8em;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    #main h1::first-letter{
+        font-size: 120%;
+    }
+    #main p{
+        text-align: center;
+        font-size: 1.5em;
+        margin: 1em auto;
+        margin-bottom: 5em;
+        margin-top: 2em;
+        width: 55%;
+    }
+    #main a{
+        border: 2px solid var(--text-white);
+        padding: .4em 1em;
+        text-decoration: none;
+        font-size: 1.3em;
+    }
+    #stepOne{
+        background: linear-gradient(var(--bg-blue), #bfbec2);
+        padding-bottom: 7em;
+    }
+    #stepOne h2{
+        text-align: center;
+        margin: 2em 0;
+        padding-top: 2em;
+        font-size: 2em;
+    }
+    #stepOne div{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+    #poetry, #books, #music, #podcasts{
+        text-decoration: none;
+    }
+    #poetry div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_275e0b185d31412bbcbaeef630b001c5~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Walking%20along%20the%20black%20sand%20beaches%20of%20.jpg');
+        height: 13.5em;
+        width: 10em;
+        border-radius: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+    #books div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_3ef49c852a944d7f8774a54241e4d6de~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/The%20Library%20of%20Trinity%20College_edited_jp.jpg');
+        height: 13.5em;
+        width: 10em;
+        border-radius: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #music div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_6ae41b87c8664dd38a7f98e148ca7f4c~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/antique%20brown%20and%20white%20piano_edited.jpg');
+        height: 13.5em;
+        width: 10em;
+        border-radius: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #podcasts div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_def918c40bb2465a9b10f393c6c7a16a~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Condenser%20microphone%20in%20a%20studio_edited_.jpg');
+        height: 13.5em;
+        width: 10em;
+        border-radius: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #poetry div p, #books div p, #music div p, #podcasts div p{
+        padding-top: 6em;
+        font-size: 1.5em;
+    }
+
+    .quote{
+        margin: 2em 0;
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .quote p{
+        margin: 1em 0;
+    }
+    .quote p:last-of-type{
+        
+    }
+
+    #stepTwo{
+        background: linear-gradient(#bfbec2, var(--bg-blue));
+        text-align: center;
+        padding-bottom: 4em;
+    }
+    #stepTwo h2{
+        text-align: center;
+        margin: 2em 0;
+        padding-top: 2em;
+        font-size: 2em;
+    }
+    #stepTwo div{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+    #stOne, #stTwo, #stThree{
+        text-decoration: none;
+    }
+    #stOne div, #stTwo div, #stThree div{
+        height: 9.2em;
+        width: 7em;
+        border-radius: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #stOne div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_eee2d4a2dbb14be398478a1e28636983~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/nude%20male%20and%20female%20with%20bird%20sculpture.jpg');
+
+    }
+    #stTwo div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_4dc1b83b30724734803c122cf67e94b9~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/_edited_edited.jpg');
+
+    }
+    #stThree div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_3462a59632494ccf8b06c5360f36fd03~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Poor%20mans%20garden_edited.jpg');
+
+    }
+    #stOne p, #stTwo p, #stThree p{
+        font-size: 1.25em;
+        margin-top: 3em;
+    }
+    #stTwo p{
+        margin-top: 2em;
+    }
+
+
+
+
+
+
+
 }
