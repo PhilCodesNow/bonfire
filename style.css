@@ -168,8 +168,36 @@
         text-align: center;
     }
 
+    #stepThree{
+        font-size: 1.5em;
+        text-align: center;
+        padding: 3em 0;
+        background: linear-gradient(var(--bg-blue), var(--text-white))
+    }
 
-
-
+    #stepThree div{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    #threeOne, #threeTwo{
+        text-decoration: none;
+    }
+    #threeOne div, #threeTwo div{
+        height: 9.2em;
+        width: 7em;
+        border-radius: 10%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #threeOne div{
+        background-image: url('https://static.wixstatic.com/media/ccc6eb_5f3c93f70727419a8d4c21994797e3e9~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/safak-atalay-9Z-SgyNBlhU-unsplash_edited.jpg')
+    }
+    #threeTwo div{
+        background-image: url('https://static.wixstatic.com/media/b2a22f_602e32f7d1474ea8a6347f3941f28d29~mv2.jpg/v1/fill/w_150,h_200,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/valentin-salja-eplulQIGDpc-unsplash_edit.jpg');
+    }
+    #threeOne div p, #threeTwo div p{
+        margin-top: 5em;
+        font-size: 1em;
+    }
 
 }
